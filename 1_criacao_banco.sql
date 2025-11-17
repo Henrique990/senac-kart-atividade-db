@@ -5,7 +5,7 @@ CREATE DATABASE IF NOT EXISTS kart_associacao;
 USE kart_associacao;
 
 /* 3. Criação das tabelas "pai" (sem dependências) */
-CREATE TEBLE Temporada (
+CREATE TABLE Temporada (
     idTemporada INT NOT NULL AUTO_INCREMENT,
     numero INT,
     PRIMARY KEY (idTemporada)
