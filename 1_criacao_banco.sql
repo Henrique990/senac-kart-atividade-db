@@ -27,7 +27,7 @@ CREATE TABLE Equipe (
 );
 
 CREATE TABLE Piloto (
-    idPiloto INTT NOT NULL AUTO_INCREMENT,
+    idPiloto INT NOT NULL AUTO_INCREMENT,
     Nome VARCHAR(150),
     peso FLOAT,
     capitao TINYINT, /* Usamos TINYINT para 0 (Não) ou 1 (Sim) */
