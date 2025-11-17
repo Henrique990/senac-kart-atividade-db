@@ -2,7 +2,7 @@
 USE kart_associacao;
 
 /* 1. Inserir Temporada */
-INSERT INFO Temporada (numero) VALUES (1); [cite: 4954]
+INSERT INTO Temporada (numero) VALUES (1); [cite: 4954]
 
 /* 2. Inserir Patrocinadores */
 INSERT INTO Patrocinio (nomePatrocinio) VALUES
